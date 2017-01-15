@@ -13,6 +13,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     @IBOutlet weak var RegionPicker: UIPickerView!  //Picker for region (view)
     @IBOutlet weak var ChooseYourRegionBtnChange: UIButton! // Button for region (view)
     
+    @IBOutlet weak var ButButton: UIImageView!
     
     @IBOutlet weak var PTP: UIPickerView!       // Picker for payment type (view)
     @IBOutlet weak var CPT: UIButton!           // Button for payment type (view)
@@ -23,7 +24,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     
     
     
-    let regions = ["Yerevan", "Aragacotn", "Ararat", "Armavir", "Gexarquniq", "Kotayq", "Lori", "Shirak", "Syuniq", "Tavush", "Vayots Dzor"]
+    let regions = ["Երևան", "Արագածոտն", "Արարատ", "Արմավիր", "Գեղարքունիք", "Կոտայք", "Լոռի", "շիրակ", "Սյունիք", "Տավուշ", "Վայոց Ձոր"]
     
     let peymentTypes = ["Cash", "PayPall", "Arca", "Visa", "MasterCard"]
     
@@ -102,6 +103,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
             NamePayment.isHidden = false
             CPT.isHidden = false
             ChooseYourRegionBtnChange.isHidden = false
+            ButButton.isHidden = false
 
         } else {
             ChooseYourRegionBtnChange.setTitle(regions[row], for: UIControlState.normal)

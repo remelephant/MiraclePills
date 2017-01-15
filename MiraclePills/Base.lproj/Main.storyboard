@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_0" orientation="portrait">
+    <device id="ipad12_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -19,33 +19,32 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="650"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="700"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EhM-BQ-PSe">
-                                <rect key="frame" x="6" y="22" width="308" height="748"/>
+                                <rect key="frame" x="6" y="22" width="308" height="678"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="miraclePillEmoji" translatesAutoresizingMaskIntoConstraints="NO" id="0uJ-kX-rry">
-                                        <rect key="frame" x="109" y="20" width="90" height="90"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Boots" translatesAutoresizingMaskIntoConstraints="NO" id="0uJ-kX-rry">
+                                        <rect key="frame" x="20" y="20" width="268" height="90"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="90" id="g0Y-ZJ-5uN"/>
-                                            <constraint firstAttribute="width" constant="90" id="hnR-b3-zaq"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MIRACLE PILLS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nCG-YD-RLx">
-                                        <rect key="frame" x="95" y="132" width="119" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Հայկական NIKE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nCG-YD-RLx">
+                                        <rect key="frame" x="44" y="155" width="220" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="20.5" id="DqG-Zy-ZTX"/>
-                                            <constraint firstAttribute="width" constant="119" id="IeV-zd-Ziq"/>
+                                            <constraint firstAttribute="width" constant="220" id="IeV-zd-Ziq"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.10588235294117647" green="0.10588235294117647" blue="0.10588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$150" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RzO-lW-Urz">
-                                        <rect key="frame" x="133" y="161" width="42" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="   115 000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RzO-lW-Urz">
+                                        <rect key="frame" x="114" y="184" width="80" height="21"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="42" id="Imw-Lb-sN8"/>
+                                            <constraint firstAttribute="width" constant="80" id="Imw-Lb-sN8"/>
                                             <constraint firstAttribute="height" constant="21" id="g1g-sS-IT9"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -53,14 +52,14 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F6J-Kz-CAw" userLabel="Divider">
-                                        <rect key="frame" x="20" y="192" width="268" height="1"/>
+                                        <rect key="frame" x="20" y="215" width="268" height="1"/>
                                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="pFB-ox-36k"/>
                                         </constraints>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FULL NAME" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yUG-gK-iHh">
-                                        <rect key="frame" x="20" y="208" width="268" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ձեր անունը" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yUG-gK-iHh">
+                                        <rect key="frame" x="20" y="231" width="268" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="Lnp-e1-b6q"/>
                                         </constraints>
@@ -68,14 +67,14 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your name..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VeY-So-qya">
-                                        <rect key="frame" x="20" y="233" width="268" height="30"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Մուտքագրեք Ձեր անունը" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VeY-So-qya">
+                                        <rect key="frame" x="20" y="256" width="268" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="STREET ADRESS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1DE-Q1-OWZ">
-                                        <rect key="frame" x="20" y="278" width="268" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Հասցե" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1DE-Q1-OWZ">
+                                        <rect key="frame" x="20" y="301" width="268" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="KUg-cT-jKh"/>
                                         </constraints>
@@ -83,14 +82,14 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your adress..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Aup-bg-sG0">
-                                        <rect key="frame" x="20" y="303" width="268" height="30"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Փողոց, շենք/տուն, բնակարան" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Aup-bg-sG0">
+                                        <rect key="frame" x="20" y="326" width="268" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ZIP CODE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7C7-yZ-RH3">
-                                        <rect key="frame" x="20" y="418" width="268" height="15"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Բջջ. հեռախոսահամար" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7C7-yZ-RH3">
+                                        <rect key="frame" x="20" y="441" width="268" height="15"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="15" id="P3I-yQ-3IZ"/>
                                         </constraints>
@@ -98,14 +97,14 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your ZIP code..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0NA-WZ-EX2">
-                                        <rect key="frame" x="20" y="441" width="268" height="30"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Առանց (+374)-ի" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0NA-WZ-EX2">
+                                        <rect key="frame" x="20" y="464" width="268" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CITY" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sze-qe-NTA">
-                                        <rect key="frame" x="20" y="348" width="268" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Քաղաք" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sze-qe-NTA">
+                                        <rect key="frame" x="20" y="371" width="268" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="4fl-z7-OHu"/>
                                         </constraints>
@@ -113,14 +112,14 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your city..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b95-Wb-PfR">
-                                        <rect key="frame" x="20" y="373" width="268" height="30"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Քաղաքի անվանումը" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b95-Wb-PfR">
+                                        <rect key="frame" x="20" y="396" width="268" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="REGIONS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LcV-yr-NXJ">
-                                        <rect key="frame" x="20" y="501" width="268" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Մարզ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LcV-yr-NXJ">
+                                        <rect key="frame" x="20" y="524" width="268" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="nKc-CG-U3x"/>
                                         </constraints>
@@ -128,8 +127,8 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PEYMANT TYPE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l1j-tx-uvq">
-                                        <rect key="frame" x="20" y="550" width="268" height="15"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Վճարման եղանակ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l1j-tx-uvq">
+                                        <rect key="frame" x="20" y="573" width="268" height="15"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="15" id="XyE-Kl-l80"/>
                                         </constraints>
@@ -138,30 +137,44 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <pickerView hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bdy-r4-cfM">
-                                        <rect key="frame" x="34" y="481" width="240" height="120"/>
+                                        <rect key="frame" x="34" y="504" width="240" height="120"/>
                                     </pickerView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cwz-47-QyA">
-                                        <rect key="frame" x="20" y="563" width="268" height="30"/>
-                                        <state key="normal" title="Choose patment type"/>
+                                        <rect key="frame" x="20" y="586" width="268" height="30"/>
+                                        <state key="normal" title="Վճարման եղանակը"/>
                                         <connections>
                                             <action selector="CPT:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9M7-8Q-f8k"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fOf-QM-wh7">
-                                        <rect key="frame" x="20" y="520" width="268" height="30"/>
+                                        <rect key="frame" x="20" y="543" width="268" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                        <state key="normal" title="Choose your region"/>
+                                        <state key="normal" title="Ընտրեք մարզը"/>
                                         <connections>
                                             <action selector="ChooseRegionButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CkE-zF-Wma"/>
                                         </connections>
                                     </button>
                                     <pickerView hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gP0-7r-p5r" userLabel="PeymantTypePicker">
-                                        <rect key="frame" x="34" y="481" width="240" height="120"/>
+                                        <rect key="frame" x="34" y="504" width="240" height="120"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="240" id="bSN-Rh-KIG"/>
                                             <constraint firstAttribute="height" constant="120" id="zUX-bw-O6n"/>
                                         </constraints>
                                     </pickerView>
+                                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Patvirel" translatesAutoresizingMaskIntoConstraints="NO" id="89v-Yk-uFY">
+                                        <rect key="frame" x="20" y="604" width="268" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="HAM-pm-0Vl"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dram" translatesAutoresizingMaskIntoConstraints="NO" id="RWP-St-s6Z">
+                                        <rect key="frame" x="116" y="189.5" width="10" height="10"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="10" id="Jq8-lV-lIo"/>
+                                            <constraint firstAttribute="height" constant="10" id="MX4-Hk-xkF"/>
+                                            <constraint firstAttribute="width" constant="10" id="g7E-1d-6s8"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="bdy-r4-cfM" firstAttribute="width" secondItem="gP0-7r-p5r" secondAttribute="width" id="0fE-1f-j4P"/>
@@ -173,6 +186,7 @@
                                     <constraint firstItem="F6J-Kz-CAw" firstAttribute="top" secondItem="RzO-lW-Urz" secondAttribute="bottom" constant="10" id="7Ij-uR-XS4"/>
                                     <constraint firstItem="bdy-r4-cfM" firstAttribute="centerX" secondItem="gP0-7r-p5r" secondAttribute="centerX" id="7j6-3c-6yA"/>
                                     <constraint firstItem="Aup-bg-sG0" firstAttribute="trailing" secondItem="F6J-Kz-CAw" secondAttribute="trailing" id="7qt-DN-tCm"/>
+                                    <constraint firstItem="89v-Yk-uFY" firstAttribute="top" secondItem="gP0-7r-p5r" secondAttribute="bottom" constant="-20" id="8pp-Hp-6l9"/>
                                     <constraint firstItem="Aup-bg-sG0" firstAttribute="leading" secondItem="F6J-Kz-CAw" secondAttribute="leading" id="9np-Kt-Mou"/>
                                     <constraint firstItem="gP0-7r-p5r" firstAttribute="top" secondItem="0NA-WZ-EX2" secondAttribute="bottom" constant="10" id="BPN-EB-gCC"/>
                                     <constraint firstItem="F6J-Kz-CAw" firstAttribute="leading" secondItem="EhM-BQ-PSe" secondAttribute="leading" constant="20" id="Baz-p4-kms"/>
@@ -182,6 +196,7 @@
                                     <constraint firstItem="0uJ-kX-rry" firstAttribute="centerX" secondItem="EhM-BQ-PSe" secondAttribute="centerX" id="F6b-dO-c1K"/>
                                     <constraint firstItem="bdy-r4-cfM" firstAttribute="height" secondItem="gP0-7r-p5r" secondAttribute="height" id="GH4-VZ-9dB"/>
                                     <constraint firstItem="fOf-QM-wh7" firstAttribute="trailing" secondItem="F6J-Kz-CAw" secondAttribute="trailing" id="GxW-ek-yPF"/>
+                                    <constraint firstItem="0uJ-kX-rry" firstAttribute="trailing" secondItem="F6J-Kz-CAw" secondAttribute="trailing" id="Hcv-Ch-dc4"/>
                                     <constraint firstItem="l1j-tx-uvq" firstAttribute="trailing" secondItem="F6J-Kz-CAw" secondAttribute="trailing" id="INP-Km-unF"/>
                                     <constraint firstItem="l1j-tx-uvq" firstAttribute="leading" secondItem="F6J-Kz-CAw" secondAttribute="leading" id="JOd-95-ZKs"/>
                                     <constraint firstItem="RzO-lW-Urz" firstAttribute="top" secondItem="nCG-YD-RLx" secondAttribute="bottom" constant="8" id="KLP-gk-RyP"/>
@@ -205,6 +220,8 @@
                                     <constraint firstItem="b95-Wb-PfR" firstAttribute="trailing" secondItem="F6J-Kz-CAw" secondAttribute="trailing" id="cZE-66-DMe"/>
                                     <constraint firstItem="RzO-lW-Urz" firstAttribute="centerX" secondItem="nCG-YD-RLx" secondAttribute="centerX" id="cfI-Fc-gIM"/>
                                     <constraint firstItem="b95-Wb-PfR" firstAttribute="top" secondItem="sze-qe-NTA" secondAttribute="bottom" constant="4" id="cqp-Qa-NSd"/>
+                                    <constraint firstItem="RWP-St-s6Z" firstAttribute="centerY" secondItem="RzO-lW-Urz" secondAttribute="centerY" id="dfQ-g3-eLG"/>
+                                    <constraint firstItem="RzO-lW-Urz" firstAttribute="leading" secondItem="RWP-St-s6Z" secondAttribute="trailing" constant="-12" id="dv7-eU-NxJ"/>
                                     <constraint firstItem="fOf-QM-wh7" firstAttribute="leading" secondItem="F6J-Kz-CAw" secondAttribute="leading" id="ePI-n2-esx"/>
                                     <constraint firstItem="sze-qe-NTA" firstAttribute="leading" secondItem="F6J-Kz-CAw" secondAttribute="leading" id="fum-Tz-jEz"/>
                                     <constraint firstItem="Aup-bg-sG0" firstAttribute="top" secondItem="1DE-Q1-OWZ" secondAttribute="bottom" constant="4" id="ggq-Rd-eZu"/>
@@ -221,8 +238,10 @@
                                     <constraint firstItem="sze-qe-NTA" firstAttribute="trailing" secondItem="F6J-Kz-CAw" secondAttribute="trailing" id="rJW-RX-BGi"/>
                                     <constraint firstItem="nCG-YD-RLx" firstAttribute="centerX" secondItem="0uJ-kX-rry" secondAttribute="centerX" id="sz5-He-pee"/>
                                     <constraint firstItem="bdy-r4-cfM" firstAttribute="centerY" secondItem="gP0-7r-p5r" secondAttribute="centerY" id="uHO-MN-8nq"/>
+                                    <constraint firstItem="89v-Yk-uFY" firstAttribute="trailing" secondItem="F6J-Kz-CAw" secondAttribute="trailing" id="uKG-PU-tzJ"/>
                                     <constraint firstItem="7C7-yZ-RH3" firstAttribute="top" secondItem="b95-Wb-PfR" secondAttribute="bottom" constant="15" id="vgU-2S-Blk"/>
-                                    <constraint firstItem="nCG-YD-RLx" firstAttribute="top" secondItem="0uJ-kX-rry" secondAttribute="bottom" constant="22" id="vnA-7d-q6A"/>
+                                    <constraint firstItem="nCG-YD-RLx" firstAttribute="top" secondItem="0uJ-kX-rry" secondAttribute="bottom" constant="45" id="vnA-7d-q6A"/>
+                                    <constraint firstItem="89v-Yk-uFY" firstAttribute="leading" secondItem="F6J-Kz-CAw" secondAttribute="leading" id="yUK-ag-Q57"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -231,12 +250,13 @@
                             <constraint firstItem="EhM-BQ-PSe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-10" id="T9t-cO-13z"/>
                             <constraint firstItem="EhM-BQ-PSe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pV0-gh-b4M"/>
                             <constraint firstItem="EhM-BQ-PSe" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="2" id="qrx-E7-qaf"/>
-                            <constraint firstAttribute="bottom" secondItem="EhM-BQ-PSe" secondAttribute="bottom" constant="-120" id="x7t-Qu-6qM"/>
+                            <constraint firstAttribute="bottom" secondItem="EhM-BQ-PSe" secondAttribute="bottom" id="x7t-Qu-6qM"/>
                         </constraints>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="320" height="650"/>
+                    <size key="freeformSize" width="320" height="700"/>
                     <connections>
+                        <outlet property="ButButton" destination="89v-Yk-uFY" id="1YD-7y-tRK"/>
                         <outlet property="CPT" destination="cwz-47-QyA" id="bns-ln-Q3F"/>
                         <outlet property="ChooseYourRegionBtnChange" destination="fOf-QM-wh7" id="YgT-6Q-jgp"/>
                         <outlet property="NamePayment" destination="l1j-tx-uvq" id="Fjl-tc-rVI"/>
@@ -247,10 +267,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="30" y="35.91549295774648"/>
+            <point key="canvasLocation" x="29.882812499999996" y="35.57833089311859"/>
         </scene>
     </scenes>
     <resources>
-        <image name="miraclePillEmoji" width="90" height="90"/>
+        <image name="Boots" width="1600" height="905"/>
+        <image name="Patvirel" width="140" height="24"/>
+        <image name="dram" width="17" height="20"/>
     </resources>
 </document>
