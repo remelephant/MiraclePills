@@ -19,10 +19,19 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     @IBOutlet weak var CPT: UIButton!           // Button for payment type (view)
     
     
+    @IBOutlet weak var PatvirelButOU: UIButton! //patvirel buttoni haytnvely
+   
+    
+    //Patvirel Kochak
+    @IBOutlet weak var PatvirelBut: UIButton!
+    
+    
+    
     @IBOutlet weak var NameRegion: UILabel!  //Name Region
     @IBOutlet weak var NamePayment: UILabel! //Name Payment
     
     
+
     
     let regions = ["Երևան", "Արագածոտն", "Արարատ", "Արմավիր", "Գեղարքունիք", "Կոտայք", "Լոռի", "շիրակ", "Սյունիք", "Տավուշ", "Վայոց Ձոր"]
     
@@ -34,6 +43,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         RegionPicker.delegate = self
         PTP.dataSource = self
         PTP.delegate = self
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -64,6 +74,11 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         ChooseYourRegionBtnChange.isHidden = true
         CPT.isHidden = true
 
+    }
+    
+    //Patvirel ACTION
+    @IBAction func PatvirelAct(_ sender: Any) {
+        ButButton.isHidden = true
     }
     
     
@@ -104,6 +119,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
             CPT.isHidden = false
             ChooseYourRegionBtnChange.isHidden = false
             ButButton.isHidden = false
+            PatvirelButOU.isHidden = false
 
         } else {
             ChooseYourRegionBtnChange.setTitle(regions[row], for: UIControlState.normal)
@@ -117,5 +133,6 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         
     }
 
+   
 }
 

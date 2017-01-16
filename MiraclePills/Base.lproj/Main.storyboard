@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="ipad12_9" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -19,11 +19,11 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="700"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="710"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EhM-BQ-PSe">
-                                <rect key="frame" x="6" y="22" width="308" height="678"/>
+                                <rect key="frame" x="6" y="22" width="308" height="688"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Boots" translatesAutoresizingMaskIntoConstraints="NO" id="0uJ-kX-rry">
                                         <rect key="frame" x="20" y="20" width="268" height="90"/>
@@ -154,6 +154,14 @@
                                             <action selector="ChooseRegionButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CkE-zF-Wma"/>
                                         </connections>
                                     </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dram" translatesAutoresizingMaskIntoConstraints="NO" id="RWP-St-s6Z">
+                                        <rect key="frame" x="116" y="189" width="10" height="10"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="10" id="Jq8-lV-lIo"/>
+                                            <constraint firstAttribute="height" constant="10" id="MX4-Hk-xkF"/>
+                                            <constraint firstAttribute="width" constant="10" id="g7E-1d-6s8"/>
+                                        </constraints>
+                                    </imageView>
                                     <pickerView hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gP0-7r-p5r" userLabel="PeymantTypePicker">
                                         <rect key="frame" x="34" y="504" width="240" height="120"/>
                                         <constraints>
@@ -167,14 +175,14 @@
                                             <constraint firstAttribute="height" constant="100" id="HAM-pm-0Vl"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dram" translatesAutoresizingMaskIntoConstraints="NO" id="RWP-St-s6Z">
-                                        <rect key="frame" x="116" y="189.5" width="10" height="10"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="10" id="Jq8-lV-lIo"/>
-                                            <constraint firstAttribute="height" constant="10" id="MX4-Hk-xkF"/>
-                                            <constraint firstAttribute="width" constant="10" id="g7E-1d-6s8"/>
-                                        </constraints>
-                                    </imageView>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dxa-A9-fLr" userLabel="Patvirel">
+                                        <rect key="frame" x="20" y="630" width="268" height="46"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                        <connections>
+                                            <action selector="PatvirelAct:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DEL-3M-wUh"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="bdy-r4-cfM" firstAttribute="width" secondItem="gP0-7r-p5r" secondAttribute="width" id="0fE-1f-j4P"/>
@@ -254,7 +262,7 @@
                         </constraints>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="320" height="700"/>
+                    <size key="freeformSize" width="320" height="710"/>
                     <connections>
                         <outlet property="ButButton" destination="89v-Yk-uFY" id="1YD-7y-tRK"/>
                         <outlet property="CPT" destination="cwz-47-QyA" id="bns-ln-Q3F"/>
@@ -262,12 +270,14 @@
                         <outlet property="NamePayment" destination="l1j-tx-uvq" id="Fjl-tc-rVI"/>
                         <outlet property="NameRegion" destination="LcV-yr-NXJ" id="ChS-Fn-uuX"/>
                         <outlet property="PTP" destination="gP0-7r-p5r" id="dJg-Y7-NbI"/>
+                        <outlet property="PatvirelBut" destination="dxa-A9-fLr" id="T4s-YH-0jD"/>
+                        <outlet property="PatvirelButOU" destination="dxa-A9-fLr" id="ckK-aO-1Pt"/>
                         <outlet property="RegionPicker" destination="bdy-r4-cfM" id="AV9-LM-O8S"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="29.882812499999996" y="35.57833089311859"/>
+            <point key="canvasLocation" x="28.125" y="34.859154929577464"/>
         </scene>
     </scenes>
     <resources>
